@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.mywebview);
 
         if (isConnectionAvailable(getApplicationContext())) {
+            //enter your website link here..............................................
             myWebView.loadUrl("https://www.google.com/");
         } else {
             AlertDialog.Builder builder =new AlertDialog.Builder(this);
